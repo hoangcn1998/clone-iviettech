@@ -1,0 +1,99 @@
+.support-live-body {
+  width: 30rem;
+  height: 13rem;
+  position: relative;
+}
+
+.support-live-heading {
+  display: flex;
+  align-items: center;
+}
+
+.support-live-heading div:first-child{
+  padding: 1rem;
+  background-color: #CA3438;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.support-live__font-awsome {
+  font-size: 2.5rem !important;
+  color: #fff;
+}
+
+.support-live__title {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.support-live__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.support-live__line {
+  height: 0.1rem;
+  background-color: black;
+  margin: 0.5rem 0 2rem 0;
+}
+
+.support-live-transparent {
+  position: absolute;
+  background-color: cyan;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.support-live-body-head {
+  position: absolute;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  top: 0;
+}
+
+.support-live-body-head img {
+  height: 5.5rem;
+  border: 2px solid #fff;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.support-live-body-footer {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.support-live-body-head div p:first-child {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.support-live-body-head div p:nth-child(2) {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.support-live-body-footer button {
+  height: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: 1px solid #00000047;
+  color: #4B4F56;
+  cursor: pointer;
+}
+
+.support-live-body-footer button i {
+  padding-right: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.support-live-body-footer button:first-child i {
+  color: #284F91;
+}

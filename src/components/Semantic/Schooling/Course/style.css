@@ -1,0 +1,23 @@
+.course {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+.course__image {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+
+.course .course__group {
+  padding-left: 1rem;
+}
+
+.course .course__group p{
+  font-size: 1.3rem;
+  color: #fff;
+  margin: 0;
+  margin: 0.5rem 0;
+}

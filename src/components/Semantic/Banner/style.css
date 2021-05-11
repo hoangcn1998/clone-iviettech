@@ -1,0 +1,32 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.banner .banner__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner__group {
+  position: absolute;
+  font-size: 5rem;
+  display: flex;
+  top: 22rem;
+}
+
+.banner__group div {
+  cursor: pointer;
+  color: #20435A;
+  font-weight: bold;
+}
+
+.banner__group div:hover {
+  transition: color 0.5s;
+  color: #DB9F88;
+}
+
+.banner__group--next {
+  padding-right: 4rem;
+}

@@ -1,0 +1,15 @@
+.introduce {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.introduce__support {
+  height: 30rem;
+}
+
+.introduce__content {
+  margin-right: 5rem;
+}

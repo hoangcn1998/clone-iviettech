@@ -1,0 +1,7 @@
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ca3438;
+  padding: 3rem 0;
+}

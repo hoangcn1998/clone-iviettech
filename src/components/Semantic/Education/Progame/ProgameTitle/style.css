@@ -1,0 +1,64 @@
+.progame-title {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.progame-title .progame-title__icon {
+  margin-right: 1.5rem;
+}
+
+.progame-title .progame-title__control {
+  color: #e59a9c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.progame-title .progame-title__control i {
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+.progame-title .progame-title__control i:hover {
+  color: #8e8e8ea1;
+  transition: color 0.3s;
+}
+
+.progame-title .progame-title__icon .progame-title__icon--item {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #FF7071;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progame-title__control--line {
+  height: 3rem;
+  width: 0.1rem;
+  background-color: #8e8e8ea1;
+}
+
+.signlear--group {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.signlearn__form--icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #FF7071;
+  border-radius: 50%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem !important;
+  color: #fff;
+}

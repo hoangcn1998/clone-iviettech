@@ -1,0 +1,127 @@
+.schooling-top {
+  background-color: #ca3438;
+  display: flex;
+  padding-top: 2rem;
+}
+
+.schooling__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55rem;
+  margin: auto;
+}
+
+.schooling-top__main {
+  margin-left: 5rem;
+}
+
+.schooling__top div:first-child {
+  width: 4rem;
+  height: 4rem;
+  background-color: #FF7071;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.schooling__top div:first-child i {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.schooling__top--title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+}
+
+.schooling__top-control i{
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.schooling__top-control {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-left: auto;
+}
+
+.schooling__top-control--line {
+  height: 3rem;
+  width: 0.1rem;
+  background-color: #fff;
+  margin: 0 1rem;
+}
+
+.schooling__body {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+}
+
+.schooling__body--line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
+
+.schooling__courses {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 1px dashed #fff;
+  border-radius: 0.5rem;
+  margin-right: 22rem;
+}
+
+.schooling__courses-header {
+  display: flex;
+  align-items: center;
+}
+
+.schooling__courses-header--title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.schooling__courses-header div:first-child {
+  width: 4rem;
+  height: 4rem;
+  background-color: #FF7071;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.schooling__courses-header--control {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.schooling__courses-header--line {
+  height: 3rem;
+  width: 0.1rem;
+  background-color: #fff;
+  margin: 0 1rem;
+}
+
+.schooling__course--line:not(:last-child) {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #fff;
+}

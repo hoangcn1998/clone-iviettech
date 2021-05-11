@@ -1,0 +1,39 @@
+.progame-content:not(:last-child) {
+  margin-right: 5rem;
+}
+
+.progame-content__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.progame-content__top img {
+  width: 13rem;
+  height: 13rem;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px dashed #fff;
+  padding: 0.5rem;
+}
+
+.progame-content__top .progame-content__top--title {
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: 2rem;
+  max-width: 13rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.progame-content__top .progame-content__top--time {
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.progame-content__top .progame-content__top--protion {
+  font-size: 1.3rem;
+}
+
